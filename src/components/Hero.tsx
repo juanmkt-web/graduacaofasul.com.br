@@ -27,7 +27,7 @@ const Hero = () => {
                 textShadow: "2px 2px 8px rgba(0, 0, 0, 0.2)",
               }}
             >
-              O Destaque Profissional que Você Busca <span className="text-accent">Começa Aqui.</span>
+              Liberdade total para<span className="text-accent"> Estudar e Evoluir</span> na sua carreira.
             </h1>
 
             <p className="text-xl text-white/90 leading-relaxed mb-8">
