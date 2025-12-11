@@ -17,40 +17,40 @@ All colors MUST be HSL.
     --popover: 0 0% 100%;
     --popover-foreground: 0 0% 20%;
 
-    /* Brand colors - Cyan to Purple gradient */
-    --primary: 195 100% 50%;
+    /* Brand colors - Emerald/Teal palette */
+    --primary: 158 64% 42%;
     --primary-foreground: 0 0% 100%;
     
-    --secondary: 142 100% 76%;
-    --secondary-foreground: 0 0% 20%;
+    --secondary: 168 76% 42%;
+    --secondary-foreground: 0 0% 100%;
     
     /* Cyan light for benefits section */
-    --cyan-light: 192 100% 50%;
+    --cyan-light: 168 76% 42%;
     --cyan-light-foreground: 0 0% 100%;
     
-    /* Dark blue for backgrounds */
+    /* Dark blue for backgrounds - MANTIDO */
     --dark-blue: 218 36% 19%;
 
-    --muted: 210 17% 98%;
-    --muted-foreground: 0 0% 45%;
+    --muted: 160 20% 96%;
+    --muted-foreground: 218 20% 40%;
 
-    /* CTA Yellow Gold */
-    --accent: 51 100% 50%;
-    --accent-foreground: 0 0% 20%;
+    /* CTA Coral/Orange warm */
+    --accent: 24 95% 58%;
+    --accent-foreground: 0 0% 100%;
 
     --destructive: 0 84% 60%;
     --destructive-foreground: 0 0% 100%;
 
-    --border: 220 13% 91%;
-    --input: 220 13% 91%;
-    --ring: 195 100% 50%;
+    --border: 160 15% 88%;
+    --input: 160 15% 88%;
+    --ring: 158 64% 42%;
 
     --radius: 0.75rem;
     
-    /* Gradient colors */
-    --gradient-cyan: 195 100% 50%;
-    --gradient-purple: 265 71% 43%;
-    --gradient-blue: 213 100% 56%;
+    /* Gradient colors - Emerald to Teal */
+    --gradient-cyan: 168 76% 42%;
+    --gradient-purple: 158 64% 42%;
+    --gradient-blue: 180 60% 35%;
     
     /* Shadows */
     --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
@@ -85,24 +85,24 @@ All colors MUST be HSL.
     --popover: 0 0% 13%;
     --popover-foreground: 0 0% 98%;
 
-    --primary: 195 100% 50%;
+    --primary: 158 64% 42%;
     --primary-foreground: 0 0% 100%;
 
-    --secondary: 142 100% 76%;
-    --secondary-foreground: 0 0% 20%;
+    --secondary: 168 76% 42%;
+    --secondary-foreground: 0 0% 100%;
 
-    --muted: 0 0% 15%;
-    --muted-foreground: 0 0% 65%;
+    --muted: 218 30% 15%;
+    --muted-foreground: 160 15% 70%;
 
-    --accent: 51 100% 50%;
-    --accent-foreground: 0 0% 20%;
+    --accent: 24 95% 58%;
+    --accent-foreground: 0 0% 100%;
 
     --destructive: 0 63% 31%;
     --destructive-foreground: 0 0% 100%;
 
-    --border: 0 0% 15%;
-    --input: 0 0% 15%;
-    --ring: 195 100% 50%;
+    --border: 218 30% 20%;
+    --input: 218 30% 20%;
+    --ring: 158 64% 42%;
     --sidebar-background: 240 5.9% 10%;
     --sidebar-foreground: 240 4.8% 95.9%;
     --sidebar-primary: 224.3 76.3% 48%;
