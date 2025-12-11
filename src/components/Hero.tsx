@@ -40,7 +40,7 @@ const Hero = () => {
                 size="lg"
                 className="bg-accent text-accent-foreground hover:bg-[#ffc700] font-bold text-lg px-10 py-7 rounded-full shadow-xl hover:shadow-2xl transition-all hover:-translate-y-1 animate-pulse-cta"
               >
-                Escolher minha Pós <ArrowRight className="ml-2 h-5 w-5" />
+                Escolher minha Pós agora <ArrowRight className="ml-2 h-5 w-5" />
               </Button>
             </div>
 
