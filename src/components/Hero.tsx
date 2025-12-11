@@ -61,7 +61,7 @@ const Hero = () => {
               animationDelay: "0.2s",
             }}
           >
-            <div className="bg-white rounded-3xl shadow-2xl p-8 max-w-md mx-auto">
+            <div className="bg-white rounded-3xl shadow-2xl p-8 max-w-lg mx-auto animate-float">
               <div className="text-center mb-6">
                 <span className="inline-block bg-accent text-accent-foreground font-bold text-sm px-6 py-2 rounded-full uppercase tracking-wide">
                   Condição Especial
