@@ -31,7 +31,8 @@ const Hero = () => {
             </h1>
 
             <p className="text-xl text-white/90 leading-relaxed mb-8">
-              Cursos 100% online, a excelência acadêmica que o mercado exige com a flexibilidade que a sua vida pede.
+              Conquiste seu diploma sem sacrificar sua rotina. Uma metodologia ágil e 100% online feita para quem não
+              pode perder tempo.
             </p>
 
             <div className="mb-8">
@@ -39,7 +40,7 @@ const Hero = () => {
                 size="lg"
                 className="bg-accent text-accent-foreground hover:bg-[#ffc700] font-bold text-lg px-10 py-7 rounded-full shadow-xl hover:shadow-2xl transition-all hover:-translate-y-1 animate-pulse-cta"
               >
-                Conheça os cursos agora <ArrowRight className="ml-2 h-5 w-5" />
+                Escolher minha Pós <ArrowRight className="ml-2 h-5 w-5" />
               </Button>
             </div>
 
