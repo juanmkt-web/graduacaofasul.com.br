@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button";
 import { ArrowRight, Award, Users } from "lucide-react";
 const Hero = () => {
   return (
-    <section className="relative flex items-center overflow-hidden gradient-animated pt-[72px] pb-8 md:pt-[92px] md:pb-16">
+    <section className="relative flex items-center overflow-hidden gradient-animated pt-[72px] pb-8 md:pt-[112px] md:pb-16">
       <div className="absolute inset-0 bg-black/10"></div>
       <div className="absolute bottom-0 left-0 right-0 h-10 md:h-16 lg:h-20">
         <svg
