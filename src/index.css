@@ -17,21 +17,21 @@ All colors MUST be HSL.
     --popover: 0 0% 100%;
     --popover-foreground: 0 0% 20%;
 
-    /* Brand colors - Emerald/Teal palette */
-    --primary: 158 64% 42%;
+    /* Brand colors - Blue palette */
+    --primary: 210 90% 50%;
     --primary-foreground: 0 0% 100%;
     
-    --secondary: 168 76% 42%;
+    --secondary: 200 85% 55%;
     --secondary-foreground: 0 0% 100%;
     
     /* Cyan light for benefits section */
-    --cyan-light: 168 76% 42%;
+    --cyan-light: 200 85% 55%;
     --cyan-light-foreground: 0 0% 100%;
     
     /* Dark blue for backgrounds - MANTIDO */
     --dark-blue: 218 36% 19%;
 
-    --muted: 160 20% 96%;
+    --muted: 210 20% 96%;
     --muted-foreground: 218 20% 40%;
 
     /* CTA Coral/Orange warm */
@@ -41,16 +41,16 @@ All colors MUST be HSL.
     --destructive: 0 84% 60%;
     --destructive-foreground: 0 0% 100%;
 
-    --border: 160 15% 88%;
-    --input: 160 15% 88%;
-    --ring: 158 64% 42%;
+    --border: 210 15% 88%;
+    --input: 210 15% 88%;
+    --ring: 210 90% 50%;
 
     --radius: 0.75rem;
     
-    /* Gradient colors - Emerald to Teal */
-    --gradient-cyan: 168 76% 42%;
-    --gradient-purple: 158 64% 42%;
-    --gradient-blue: 180 60% 35%;
+    /* Gradient colors - Blue tones */
+    --gradient-cyan: 200 85% 55%;
+    --gradient-purple: 230 70% 50%;
+    --gradient-blue: 210 90% 50%;
     
     /* Shadows */
     --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
@@ -85,14 +85,14 @@ All colors MUST be HSL.
     --popover: 0 0% 13%;
     --popover-foreground: 0 0% 98%;
 
-    --primary: 158 64% 42%;
+    --primary: 210 90% 50%;
     --primary-foreground: 0 0% 100%;
 
-    --secondary: 168 76% 42%;
+    --secondary: 200 85% 55%;
     --secondary-foreground: 0 0% 100%;
 
     --muted: 218 30% 15%;
-    --muted-foreground: 160 15% 70%;
+    --muted-foreground: 210 15% 70%;
 
     --accent: 24 95% 58%;
     --accent-foreground: 0 0% 100%;
@@ -102,7 +102,7 @@ All colors MUST be HSL.
 
     --border: 218 30% 20%;
     --input: 218 30% 20%;
-    --ring: 158 64% 42%;
+    --ring: 210 90% 50%;
     --sidebar-background: 240 5.9% 10%;
     --sidebar-foreground: 240 4.8% 95.9%;
     --sidebar-primary: 224.3 76.3% 48%;
