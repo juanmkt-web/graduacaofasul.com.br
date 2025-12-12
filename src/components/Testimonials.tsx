@@ -24,7 +24,7 @@ const testimonials = [
   {
     id: 3,
     quote:
-      "Mudar de área parecia impossível, mas a especialização em Psicopedagogia me deu a confiança técnica que faltava. Hoje vivo o meu sonho profissional e sou grata à Fasul por isso.",
+      "Conteúdo prático e direto ao ponto. Apliquei o que aprendi e fui promovido em menos de um ano. Recomendo para quem quer crescer rápido.",
     name: "Gabriela Silva",
     course: "Psicopedagogia Clínica e Institucional",
     photo: gabrielaFoto,
