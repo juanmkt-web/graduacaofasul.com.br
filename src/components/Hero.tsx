@@ -27,7 +27,7 @@ const Hero = () => {
                 textShadow: "2px 2px 8px rgba(0, 0, 0, 0.2)",
               }}
             >
-              Liberdade total para<span className="text-accent"> Estudar e Evoluir</span> na sua carreira.
+              LIBERDADE TOTAL PARA<span className="text-accent"> ESTUDAR E EVOLUIR</span> NA SUA CARREIRA.
             </h1>
 
             <p className="text-xl text-white/90 leading-relaxed mb-8">
@@ -36,7 +36,11 @@ const Hero = () => {
             </p>
 
             <div className="mb-8">
-              <a href="https://www.fasuleducacional.edu.br/posgraduacao/cursos" target="_blank" rel="noopener noreferrer">
+              <a
+                href="https://www.fasuleducacional.edu.br/posgraduacao/cursos"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <Button
                   size="lg"
                   className="bg-accent text-accent-foreground hover:bg-[#ffc700] font-bold text-lg px-10 py-7 rounded-full shadow-xl hover:shadow-2xl transition-all hover:-translate-y-1 animate-pulse-cta"
