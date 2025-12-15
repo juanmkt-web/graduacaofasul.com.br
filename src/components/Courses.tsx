@@ -46,9 +46,15 @@ const Courses = () => {
         </div>
         
         <div className="grid md:grid-cols-2 gap-6 max-w-7xl mx-auto">
-          {areas.map((area, index) => <div key={index} className="relative h-64 rounded-3xl overflow-hidden group cursor-pointer animate-fade-in hover:scale-[1.02] transition-all duration-300" style={{
-          animationDelay: `${index * 0.1}s`
-        }}>
+          {areas.map((area, index) => (
+            <a 
+              key={index} 
+              href="https://www.fasuleducacional.edu.br/posgraduacao/cursos" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="relative h-64 rounded-3xl overflow-hidden group cursor-pointer animate-fade-in hover:scale-[1.02] transition-all duration-300 block" 
+              style={{ animationDelay: `${index * 0.1}s` }}
+            >
               <img src={area.image} alt={area.title} className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" />
               <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent"></div>
               <div className="absolute bottom-0 left-0 right-0 p-8">
@@ -59,7 +65,8 @@ const Courses = () => {
                   SEU CERTIFICADO A PARTIR DE 3 MESES
                 </p>
               </div>
-            </div>)}
+            </a>
+          ))}
         </div>
       </div>
       

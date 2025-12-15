@@ -36,12 +36,14 @@ const Hero = () => {
             </p>
 
             <div className="mb-8">
-              <Button
-                size="lg"
-                className="bg-accent text-accent-foreground hover:bg-[#ffc700] font-bold text-lg px-10 py-7 rounded-full shadow-xl hover:shadow-2xl transition-all hover:-translate-y-1 animate-pulse-cta"
-              >
-                ESCOLHER MINHA PÓS AGORA <ArrowRight className="ml-2 h-5 w-5" />
-              </Button>
+              <a href="https://www.fasuleducacional.edu.br/posgraduacao/cursos" target="_blank" rel="noopener noreferrer">
+                <Button
+                  size="lg"
+                  className="bg-accent text-accent-foreground hover:bg-[#ffc700] font-bold text-lg px-10 py-7 rounded-full shadow-xl hover:shadow-2xl transition-all hover:-translate-y-1 animate-pulse-cta"
+                >
+                  ESCOLHER MINHA PÓS AGORA <ArrowRight className="ml-2 h-5 w-5" />
+                </Button>
+              </a>
             </div>
 
             <div className="flex flex-wrap gap-6">
