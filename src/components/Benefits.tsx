@@ -58,10 +58,12 @@ const Benefits = () => {
               </div>)}
 
             <div className="pt-4 md:pt-8">
-              <Button size="lg" className="w-full lg:w-auto bg-cyan-light hover:bg-cyan-light/90 text-cyan-light-foreground font-bold text-sm md:text-lg px-6 md:px-12 py-4 md:py-6 rounded-full shadow-xl hover:shadow-2xl transition-all duration-300 hover:scale-105">
-                COMECE SUA PÓS AGORA!
-                <ArrowRight className="ml-2 h-4 w-4 md:h-5 md:w-5" />
-              </Button>
+              <a href="https://www.fasuleducacional.edu.br/posgraduacao/cursos" target="_blank" rel="noopener noreferrer">
+                <Button size="lg" className="w-full lg:w-auto bg-cyan-light hover:bg-cyan-light/90 text-cyan-light-foreground font-bold text-sm md:text-lg px-6 md:px-12 py-4 md:py-6 rounded-full shadow-xl hover:shadow-2xl transition-all duration-300 hover:scale-105">
+                  COMECE SUA PÓS AGORA!
+                  <ArrowRight className="ml-2 h-4 w-4 md:h-5 md:w-5" />
+                </Button>
+              </a>
             </div>
           </div>
           </div>

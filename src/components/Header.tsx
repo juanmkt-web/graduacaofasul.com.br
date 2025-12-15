@@ -26,9 +26,11 @@ const Header = () => {
         </nav>
         
         <div className="flex items-center gap-4">
-          <Button variant="default" className="bg-accent text-accent-foreground hover:bg-[#ffc700] font-semibold rounded-full text-sm md:text-base px-4 md:px-5 py-2.5">
-            Comece Agora
-          </Button>
+          <a href="https://www.fasuleducacional.edu.br/posgraduacao/cursos" target="_blank" rel="noopener noreferrer">
+            <Button variant="default" className="bg-accent text-accent-foreground hover:bg-[#ffc700] font-semibold rounded-full text-sm md:text-base px-4 md:px-5 py-2.5">
+              Comece Agora
+            </Button>
+          </a>
           
           {/* Mobile hamburger menu */}
           <button
