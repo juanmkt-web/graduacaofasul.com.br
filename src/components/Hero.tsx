@@ -37,7 +37,7 @@ const Hero = () => {
                 textShadow: "2px 2px 8px rgba(0, 0, 0, 0.2)",
               }}
             >
-              QUEM NÃO DOMINA A<span className="text-primary"> TECNOLOGIA</span> SERÁ DOMINADO POR ELA.
+              O DIPLOMA QUE<span className="text-primary"> MULTIPLICA</span> SEU VALOR DE MERCADO.
             </h1>
 
             <p className="text-base md:text-xl text-white/90 leading-relaxed mb-5 md:mb-8">
