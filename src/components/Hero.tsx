@@ -37,7 +37,7 @@ const Hero = () => {
                 textShadow: "2px 2px 8px rgba(0, 0, 0, 0.2)",
               }}
             >
-              O MERCADO ELIMINA RÁPIDO<span className="text-primary"> QUEM NÃO ACOMPANHA</span> A EVOLUÇÃO.
+              O MERCADO ELIMINA<span className="text-primary"> QUEM NÃO ACOMPANHA</span> A EVOLUÇÃO.
             </h1>
 
             <p className="text-base md:text-xl text-white/90 leading-relaxed mb-5 md:mb-8">
