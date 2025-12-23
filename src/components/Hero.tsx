@@ -37,12 +37,12 @@ const Hero = () => {
                 textShadow: "2px 2px 8px rgba(0, 0, 0, 0.2)",
               }}
             >
-              O MERCADO DO FUTURO<span className="text-primary"> VALORIZA QUEM TEM</span> UMA FORMAÇÃO DO FUTURO
+              O SUCESSO PROFISSIONAL<span className="text-primary"> EXIG UMA GRADUAÇÃO</span> DE ALTO NÍVEL.
             </h1>
 
             <p className="text-base md:text-xl text-white/90 leading-relaxed mb-5 md:mb-8">
-              Ficar parado é andar para trás. Acelere sua carreira com uma Graduação ágil que te coloca no ritmo das
-              grandes empresas.
+              Chega de salários baixos. Conquiste uma graduação ágil, focada no que as empresas precisam hoje, e acesse
+              as melhores faixas salariais.
             </p>
 
             <div className="mb-5 md:mb-8 flex justify-center md:justify-start">
@@ -55,7 +55,7 @@ const Hero = () => {
                   size="lg"
                   className="bg-primary text-primary-foreground hover:bg-primary/80 font-bold text-sm md:text-lg px-6 md:px-10 py-5 md:py-7 rounded-full shadow-xl hover:shadow-2xl transition-all hover:-translate-y-1 animate-pulse-cta w-full md:w-auto"
                 >
-                  QUERO EVOLUIR AGORA <ArrowRight className="ml-2 h-4 w-4 md:h-5 md:w-5" />
+                  QUERO ME DESTACAR <ArrowRight className="ml-2 h-4 w-4 md:h-5 md:w-5" />
                 </Button>
               </a>
             </div>
