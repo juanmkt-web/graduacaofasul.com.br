@@ -1,7 +1,7 @@
 import { Quote } from "lucide-react";
-import brenoFoto from "@/assets/breno-takana.png";
-import brunaFoto from "@/assets/bruna-cabezuca.png";
-import mauricioFoto from "@/assets/mauricio-magalhaes.png";
+import bartolomeuFoto from "@/assets/bartolomeu-arruda.png";
+import amandaFoto from "@/assets/amanda-dias.png";
+import gizeliFoto from "@/assets/gizely-reis.png";
 import { useState, useEffect } from "react";
 
 const testimonials = [
@@ -9,25 +9,25 @@ const testimonials = [
     id: 1,
     quote:
       "Eu cansava de rodar a cidade mostrando imóvel pra no final outro corretor assinar o contrato e levar a comissão. Aquilo me doía no bolso. Fiz o curso pra tirar meu CRECI e entender a papelada. Hoje faço a venda de ponta a ponta e a comissão gorda fica toda comigo.",
-    name: "Breno Takana",
+    name: "Bartolomeu Arruda",
     course: "Negócios Imobiliários",
-    photo: brenoFoto,
+    photo: bartolomeuFoto,
   },
   {
     id: 2,
     quote:
       "Eu achava que Marketing era só fazer arte bonitinha no Canva, mas meu chefe cobrava venda e eu travava. O Curso me ensinou a estratégia por trás do post e como analisar dados. Hoje sei atrair cliente de verdade e provo meu valor mostrando relatório de faturamento.",
-    name: "Bruna Cabezuca",
+    name: "Amanda Dias",
     course: "Gestão de Marketing",
-    photo: brunaFoto,
+    photo: amandaFoto,
   },
   {
     id: 3,
     quote:
       "Eu trabalhava muito no operacional, 'apagando incêndio' o dia todo, mas na hora da promoção a vaga ia pra quem tinha diploma. Cansei de perder oportunidade. A Administração me deu a visão de gestor que faltava. Hoje lidero minha equipe e meu salário finalmente é compatível com meu esforço.",
-    name: "Mauricio Magalhães",
+    name: "Gizely Reis",
     course: "Administração",
-    photo: mauricioFoto,
+    photo: gizeliFoto,
   },
 ];
 
