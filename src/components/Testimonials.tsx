@@ -8,7 +8,7 @@ const testimonials = [
   {
     id: 1,
     quote:
-      "Eu cansava de rodar a cidade mostrando imóvel pra no final outro corretor assinar o contrato e levar a comissão. Aquilo me doía no bolso. Fiz o curso pra tirar meu CRECI e entender a papelada. Hoje faço a venda de ponta a ponta e a comissão gorda fica toda comigo.",
+      "Eu perdi uma venda milionária no passado porque o cliente, um investidor sério, pediu minha credencial e eu não era formado. Foi a maior vergonha da minha vida. Corri atrás do prejuízo. Hoje, com o diploma e o CRECI na mão, tenho acesso aos empreendimentos de luxo que antes eram fechados pra mim.",
     name: "Bartolomeu Arruda",
     course: "Negócios Imobiliários",
     photo: bartolomeuFoto,
@@ -16,15 +16,15 @@ const testimonials = [
   {
     id: 2,
     quote:
-      "Eu achava que Marketing era só fazer arte bonitinha no Canva, mas meu chefe cobrava venda e eu travava. O Curso me ensinou a estratégia por trás do post e como analisar dados. Hoje sei atrair cliente de verdade e provo meu valor mostrando relatório de faturamento.",
+      "Sempre sonhei em ter meu escritório, mas sem o CRC você não é nada. A faculdade me deu a base técnica pra não ter medo da Receita Federal. Hoje não tenho patrão, tenho clientes. Assino balanços, faço auditoria e minha hora técnica vale dez vezes mais do que quando eu era auxiliar.",
     name: "Amanda Dias",
-    course: "Gestão de Marketing",
+    course: "Ciências Contábeis",
     photo: amandaFoto,
   },
   {
     id: 3,
     quote:
-      "Eu trabalhava muito no operacional, 'apagando incêndio' o dia todo, mas na hora da promoção a vaga ia pra quem tinha diploma. Cansei de perder oportunidade. A Administração me deu a visão de gestor que faltava. Hoje lidero minha equipe e meu salário finalmente é compatível com meu esforço.",
+      "Lidar com gente é difícil. Eu não sabia como dar um feedback negativo ou demitir sem criar um clima pesado. O curso me ensinou a psicologia e as técnicas de liderança humanizada. Consegui reduzir a rotatividade da equipe e fui convidada para gerenciar o setor em uma multinacional.",
     name: "Gizely Reis",
     course: "Administração",
     photo: gizeliFoto,
