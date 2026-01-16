@@ -26,14 +26,14 @@ const Benefits = () => {
   return (
     <section className="py-12 md:py-24 bg-white">
       <div className="max-w-7xl mx-auto px-4">
-        <div 
+        <div
           className="relative overflow-hidden rounded-2xl md:rounded-3xl shadow-2xl"
           style={{
             backgroundImage: `
               radial-gradient(ellipse at 12% 88%, rgba(12, 96, 124, 0.65) 0, rgba(12, 96, 124, 0.25) 32%, rgba(4, 16, 41, 0) 60%), 
               radial-gradient(ellipse at 94% 20%, rgba(103, 41, 166, 0.65) 0, rgba(103, 41, 166, 0.25) 32%, rgba(4, 16, 41, 0) 56%), 
               linear-gradient(180deg, #050d21 0, #040b1a 55%, #020711 100%)
-            `
+            `,
           }}
         >
           <div className="px-10 py-8 md:px-20 md:py-16 lg:px-28 relative z-10">
@@ -42,7 +42,6 @@ const Benefits = () => {
               <div className="animate-fade-in text-center lg:text-left">
                 <h2 className="text-2xl md:text-4xl lg:text-5xl xl:text-6xl font-extrabold text-white mb-3 md:mb-6 leading-tight">
                   A GRADUAÇÃO QUE<span className="text-[#00D4FF]"> TE PREPARA </span>
-                  <br />
                   PARA O FUTURO!
                 </h2>
                 <p className="text-sm md:text-lg text-white/80 leading-relaxed">
