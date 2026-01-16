@@ -1,34 +1,34 @@
 import { ExternalLink } from "lucide-react";
-import bernardoImg from "@/assets/bernardo.png";
-import gabrielaImg from "@/assets/gabriela.png";
-import julianoImg from "@/assets/juliano.png";
-import larissaImg from "@/assets/larissa.webp";
-import renanImg from "@/assets/renan.webp";
+import deboraImg from "@/assets/debora.avif";
+import mauricioImg from "@/assets/mauricio.avif";
+import veraImg from "@/assets/vera.avif";
+import sergioImg from "@/assets/sergio.avif";
+import paolaImg from "@/assets/paola.avif";
 
 const professors = [
   {
-    name: "Doutor Bernardo Silva",
-    image: bernardoImg,
+    name: "Doutora Débora Maria Moreno Luzia",
+    image: deboraImg,
     lattesUrl: "http://lattes.cnpq.br/"
   },
   {
-    name: "Doutora Gabriela Santos",
-    image: gabrielaImg,
+    name: "Mestre Maurício Ricardo Soares",
+    image: mauricioImg,
     lattesUrl: "http://lattes.cnpq.br/"
   },
   {
-    name: "Doutor Juliano Costa",
-    image: julianoImg,
+    name: "Doutora Vera Lúcia da Silva Farias",
+    image: veraImg,
     lattesUrl: "http://lattes.cnpq.br/"
   },
   {
-    name: "Mestra Larissa Oliveira",
-    image: larissaImg,
+    name: "Mestre Sérgio Ferreira da Silva",
+    image: sergioImg,
     lattesUrl: "http://lattes.cnpq.br/"
   },
   {
-    name: "Mestre Renan Ferreira",
-    image: renanImg,
+    name: "Mestra Paola Marie Vitaca Rodrigues",
+    image: paolaImg,
     lattesUrl: "http://lattes.cnpq.br/"
   }
 ];
@@ -88,7 +88,7 @@ const Faculty = () => {
                 <h3 className="text-white font-semibold text-sm md:text-base lg:text-lg mb-1 leading-tight group-hover:scale-105 transition-transform duration-300">
                   {professor.name}
                 </h3>
-                <span className="flex items-center gap-1 text-yellow-400 text-xs md:text-sm font-medium underline underline-offset-2 group-hover:text-yellow-400/80 transition-colors duration-300">
+                <span className="flex items-center gap-1 text-blue-400 text-xs md:text-sm font-medium underline underline-offset-2 group-hover:text-blue-300 transition-colors duration-300">
                   <ExternalLink className="w-3 h-3 md:w-4 md:h-4" />
                   Currículo Lattes
                 </span>
