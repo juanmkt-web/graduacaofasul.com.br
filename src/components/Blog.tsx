@@ -1,12 +1,12 @@
 import { Eye, MessageSquare, Heart } from "lucide-react";
-import cursoEscolarImg from "@/assets/curso-escolar.jpg";
-import cursoFinanceiroImg from "@/assets/curso-financeiro.jpg";
-import cursoGestaoImg from "@/assets/curso-gestao.jpg";
-import cursoMarketingImg from "@/assets/curso-marketing.jpg";
+import blog1Img from "@/assets/blog-1.webp";
+import blog2Img from "@/assets/blog-2.webp";
+import blog3Img from "@/assets/blog-3.webp";
+import blog4Img from "@/assets/blog-4.webp";
 
 const blogPosts = [
   {
-    image: cursoEscolarImg,
+    image: blog1Img,
     author: "Profª. Maria Santos",
     date: "26 de dez. de 2025 · 8 min de leitura",
     title: "Como escolher a pós-graduação ideal para sua carreira",
@@ -16,7 +16,7 @@ const blogPosts = [
     url: "#"
   },
   {
-    image: cursoFinanceiroImg,
+    image: blog2Img,
     author: "Prof. Carlos Lima",
     date: "20 de dez. de 2025 · 5 min de leitura",
     title: "Tendências do mercado financeiro para 2026",
@@ -26,7 +26,7 @@ const blogPosts = [
     url: "#"
   },
   {
-    image: cursoGestaoImg,
+    image: blog3Img,
     author: "Profª. Ana Paula",
     date: "15 de dez. de 2025 · 6 min de leitura",
     title: "Gestão de pessoas: habilidades essenciais",
@@ -36,7 +36,7 @@ const blogPosts = [
     url: "#"
   },
   {
-    image: cursoMarketingImg,
+    image: blog4Img,
     author: "Prof. Ricardo Alves",
     date: "10 de dez. de 2025 · 7 min de leitura",
     title: "Marketing digital: estratégias que funcionam",
