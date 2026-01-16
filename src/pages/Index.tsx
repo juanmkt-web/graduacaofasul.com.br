@@ -19,9 +19,9 @@ const Index = () => {
         <Courses />
         <Testimonials />
         <Steps />
-        <CTA />
         <Faculty />
         <Blog />
+        <CTA />
       </main>
       <Footer />
     </div>
