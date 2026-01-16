@@ -28,7 +28,7 @@ const faqItems = [
   {
     question: "Posso fazer mais de uma Pós-Graduação ao mesmo tempo?",
     answer:
-      "Sim! Com nossa promoção exclusiva, você pode fazer varias Pós-Graduações pelo preço de uma. É uma excelente oportunidade para ampliar seus conhecimentos e se destacar no mercado de trabalho.",
+      "Sim! Com nossa promoção exclusiva,você pode fazer até 3 Pós-Graduações simultaneamente. É uma excelente oportunidade para ampliar seus conhecimentos e se destacar no mercado de trabalho.",
   },
 ];
 
