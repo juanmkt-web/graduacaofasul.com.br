@@ -1,4 +1,4 @@
-import { Quote } from "lucide-react";
+import { Quote, ChevronLeft, ChevronRight } from "lucide-react";
 import bernardoFoto from "@/assets/bernardo.png";
 import julianoFoto from "@/assets/juliano.png";
 import gabrielaFoto from "@/assets/gabriela.png";
@@ -47,6 +47,16 @@ const Testimonials = () => {
 
   const currentTestimonial = testimonials[currentIndex];
 
+  const goToPrevious = () => {
+    setCurrentIndex((prevIndex) => 
+      prevIndex === 0 ? testimonials.length - 1 : prevIndex - 1
+    );
+  };
+
+  const goToNext = () => {
+    setCurrentIndex((prevIndex) => (prevIndex + 1) % testimonials.length);
+  };
+
   return (
     <section id="depoimentos" className="pt-5 pb-12 md:pt-10 md:pb-24 bg-[#1e2842] relative" style={{ marginTop: "15px" }}>
       <div className="absolute bottom-0 left-0 right-0 h-10 md:h-16 lg:h-20">
@@ -73,10 +83,28 @@ const Testimonials = () => {
         </div>
 
         <div
-          className="max-w-4xl mx-auto"
+          className="max-w-4xl mx-auto relative"
           onMouseEnter={() => setIsHovered(true)}
           onMouseLeave={() => setIsHovered(false)}
         >
+          {/* Left Navigation Button */}
+          <button
+            onClick={goToPrevious}
+            className="absolute left-0 top-1/2 -translate-y-1/2 -translate-x-4 lg:-translate-x-16 z-20 w-10 h-10 lg:w-12 lg:h-12 rounded-full bg-white/10 hover:bg-white/20 transition-all flex items-center justify-center text-white/70 hover:text-white"
+            aria-label="Depoimento anterior"
+          >
+            <ChevronLeft className="w-5 h-5 lg:w-6 lg:h-6" />
+          </button>
+
+          {/* Right Navigation Button */}
+          <button
+            onClick={goToNext}
+            className="absolute right-0 top-1/2 -translate-y-1/2 translate-x-4 lg:translate-x-16 z-20 w-10 h-10 lg:w-12 lg:h-12 rounded-full bg-white/10 hover:bg-white/20 transition-all flex items-center justify-center text-white/70 hover:text-white"
+            aria-label="Próximo depoimento"
+          >
+            <ChevronRight className="w-5 h-5 lg:w-6 lg:h-6" />
+          </button>
+
           <div className="glass-effect rounded-3xl p-8 lg:p-12 shadow-2xl animate-fade-in" key={currentTestimonial.id}>
             <Quote className="h-12 w-12 text-cyan-light mb-6" />
             <p className="text-xl lg:text-2xl text-white mb-8 leading-relaxed italic font-light">
