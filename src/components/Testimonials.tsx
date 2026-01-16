@@ -48,7 +48,7 @@ const Testimonials = () => {
   const currentTestimonial = testimonials[currentIndex];
 
   return (
-    <section id="depoimentos" className="py-12 md:py-24 bg-[#1e2842] relative" style={{ marginTop: "15px" }}>
+    <section id="depoimentos" className="pt-5 pb-12 md:pt-10 md:pb-24 bg-[#1e2842] relative" style={{ marginTop: "15px" }}>
       <div className="absolute bottom-0 left-0 right-0 h-10 md:h-16 lg:h-20">
         <svg
           xmlns="http://www.w3.org/2000/svg"
