@@ -20,7 +20,7 @@ const steps = [
 
 const Steps = () => {
   return (
-    <section id="sobre" className="py-12 md:py-24 bg-background">
+    <section id="sobre" className="py-12 md:py-24 bg-white">
       <div className="container mx-auto px-4">
         <div className="text-center mb-8 md:mb-16 animate-fade-in">
           <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold mb-3 md:mb-4">
