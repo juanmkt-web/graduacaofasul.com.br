@@ -1,0 +1,99 @@
+import { ExternalLink } from "lucide-react";
+
+interface Professor {
+  name: string;
+  image: string;
+  lattesUrl: string;
+}
+
+const professors: Professor[] = [
+  {
+    name: "Doutora Débora Maria Moreno Luzia",
+    image: "/placeholder.svg",
+    lattesUrl: "#",
+  },
+  {
+    name: "Doutor João Carlos Silva",
+    image: "/placeholder.svg",
+    lattesUrl: "#",
+  },
+  {
+    name: "Mestre Ana Paula Santos",
+    image: "/placeholder.svg",
+    lattesUrl: "#",
+  },
+  {
+    name: "Doutor Ricardo Mendes",
+    image: "/placeholder.svg",
+    lattesUrl: "#",
+  },
+  {
+    name: "Mestre Carla Fernandes",
+    image: "/placeholder.svg",
+    lattesUrl: "#",
+  },
+];
+
+const Faculty = () => {
+  return (
+    <section className="faculty-section">
+      {/* Wave superior */}
+      <div className="wave-top">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+          <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" fill="#ffffff"/>
+        </svg>
+      </div>
+      
+      <div className="faculty-overlay"></div>
+      
+      <div className="faculty-container">
+        <div className="faculty-content-wrapper">
+          {/* Cabeçalho */}
+          <div className="faculty-header">
+            <h2 className="faculty-title">CORPO DOCENTE DE EXCELÊNCIA</h2>
+            <p className="faculty-description">
+              Nosso corpo docente é formado por professores mestres e doutores com vasta experiência acadêmica e profissional, 
+              prontos para orientar sua jornada de aprendizado com metodologias inovadoras e conteúdo atualizado.
+            </p>
+          </div>
+          
+          {/* Grid de Professores */}
+          <div className="professors-grid">
+            {professors.map((professor, index) => (
+              <a 
+                key={index} 
+                href={professor.lattesUrl} 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="professor-card"
+              >
+                <div className="professor-image-container">
+                  <div className="professor-image-overlay"></div>
+                  <img 
+                    src={professor.image} 
+                    alt={professor.name} 
+                    className="professor-image" 
+                  />
+                </div>
+                <h3 className="professor-name">{professor.name}</h3>
+                <span className="lattes-link">
+                  <ExternalLink className="w-3 h-3 md:w-4 md:h-4" />
+                  Currículo Lattes
+                </span>
+              </a>
+            ))}
+          </div>
+        </div>
+      </div>
+      
+      {/* Wave inferior */}
+      <div className="wave-bottom-faculty">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+          <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V120H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" fill="#1E2842"/>
+        </svg>
+      </div>
+    </section>
+  );
+};
+
+export default Faculty;
