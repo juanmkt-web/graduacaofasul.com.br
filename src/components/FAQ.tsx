@@ -4,22 +4,22 @@ const faqItems = [
   {
     question: "Qual a duração dos cursos de graduação?",
     answer:
-      "Nossos cursos de graduação têm duração a partir de 2 anos, dependendo da modalidade e área escolhida. Os cursos tecnológicos geralmente são mais curtos, enquanto bacharelados e licenciaturas podem ter durações maiores.",
+      "Nossos Cursos de Graduação têm duração a partir de 4 Semestres, dependendo da modalidade e área escolhida. Os cursos tecnológicos geralmente são mais curtos, enquanto bacharelados e licenciaturas podem ter durações maiores.",
   },
   {
     question: "O diploma é reconhecido pelo MEC?",
     answer:
-      "Sim! A FASUL é uma instituição com nota 5 no MEC, a nota máxima de avaliação. Todos os nossos diplomas são reconhecidos nacionalmente e têm a mesma validade de cursos presenciais.",
+      "Sim! A FASUL é uma Instituição com nota 5 no MEC, a nota máxima de avaliação. Todos os nossos diplomas são reconhecidos nacionalmente e têm a mesma validade de Cursos presenciais.",
   },
   {
     question: "Quais são as formas de pagamento disponíveis?",
     answer:
-      "Oferecemos diversas formas de pagamento: boleto bancário, cartão de crédito (com parcelamento), PIX e débito automático. Também temos programas de bolsas e descontos especiais.",
+      "Oferecemos diversas formas de pagamento: boleto bancário, cartão de crédito (com parcelamento, ou a vista), PIX e débito automático.",
   },
   {
-    question: "Posso transferir meu curso de outra instituição?",
+    question: "Posso transferir meu Curso de outra instituição?",
     answer:
-      "Sim, aceitamos transferências de outras instituições de ensino superior. As disciplinas cursadas podem ser aproveitadas mediante análise curricular, reduzindo o tempo de conclusão do curso.",
+      "Sim, aceitamos transferências de outras instituições de ensino superior. As disciplinas Cursadas podem ser aproveitadas mediante análise curricular, reduzindo o tempo de conclusão do Curso.",
   },
   {
     question: "Quais são as modalidades disponíveis?",
@@ -35,7 +35,9 @@ const FAQ = () => {
         <div className="max-w-4xl mx-auto">
           {/* Header */}
           <div className="mb-4 md:mb-10 text-center">
-            <h2 className="text-xl md:text-4xl lg:text-5xl font-bold text-[#1E2842] mb-2 md:mb-4">PERGUNTAS FREQUENTES</h2>
+            <h2 className="text-xl md:text-4xl lg:text-5xl font-bold text-[#1E2842] mb-2 md:mb-4">
+              PERGUNTAS FREQUENTES
+            </h2>
             <p className="text-gray-600 text-sm md:text-lg">Tire suas dúvidas sobre a Graduação da FASUL</p>
           </div>
 
