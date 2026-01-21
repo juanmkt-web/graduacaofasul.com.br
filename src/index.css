@@ -599,8 +599,8 @@ All colors MUST be HSL.
 .faculty-section {
   position: relative;
   overflow: hidden;
-  padding-top: 48px;
-  padding-bottom: 64px;
+  padding-top: 32px;
+  padding-bottom: 48px;
   background: linear-gradient(
     to bottom, 
     hsl(213 97% 55%) 0%,
@@ -685,7 +685,7 @@ All colors MUST be HSL.
 
 .faculty-header {
   text-align: center;
-  margin-bottom: 32px;
+  margin-bottom: 20px;
 }
 
 @media (min-width: 768px) {
@@ -693,11 +693,11 @@ All colors MUST be HSL.
 }
 
 .faculty-title {
-  font-size: 24px;
-  line-height: 32px;
+  font-size: 20px;
+  line-height: 28px;
   font-weight: 700;
   color: #ffffff;
-  margin-bottom: 16px;
+  margin-bottom: 8px;
 }
 
 @media (min-width: 768px) {
@@ -717,11 +717,10 @@ All colors MUST be HSL.
 
 .faculty-description {
   color: rgba(255, 255, 255, 0.8);
-  font-size: 14px;
-  line-height: 24px;
+  font-size: 12px;
+  line-height: 20px;
   max-width: 896px;
   margin: 0 auto;
-  line-height: 1.625;
 }
 
 @media (min-width: 768px) {
@@ -851,7 +850,7 @@ All colors MUST be HSL.
 .blog-section {
   position: relative;
   padding-top: 0;
-  padding-bottom: 128px;
+  padding-bottom: 48px;
   background-color: #1E2842;
 }
 
@@ -873,7 +872,10 @@ All colors MUST be HSL.
 
 @media (min-width: 768px) {
   .wave-top-blog { height: 64px; }
-  .blog-section { padding-top: 0; }
+  .blog-section { 
+    padding-top: 0; 
+    padding-bottom: 128px;
+  }
 }
 
 @media (min-width: 1024px) {
@@ -890,12 +892,16 @@ All colors MUST be HSL.
 
 .blog-header {
   text-align: center;
-  margin-bottom: 48px;
+  margin-bottom: 20px;
+}
+
+@media (min-width: 768px) {
+  .blog-header { margin-bottom: 48px; }
 }
 
 .blog-title {
-  font-size: 36px;
-  line-height: 40px;
+  font-size: 20px;
+  line-height: 28px;
   font-weight: 700;
   color: #ffffff;
   margin-bottom: 16px;
@@ -910,10 +916,17 @@ All colors MUST be HSL.
 
 .blog-description {
   color: #D1D5DB;
-  font-size: 18px;
-  line-height: 28px;
+  font-size: 12px;
+  line-height: 20px;
   max-width: 768px;
   margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+  .blog-description {
+    font-size: 18px;
+    line-height: 28px;
+  }
 }
 
 .posts-grid {

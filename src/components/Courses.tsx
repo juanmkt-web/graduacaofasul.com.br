@@ -349,7 +349,7 @@ const Courses = () => {
   const hasMore = visibleCount < courses.length;
 
   return (
-    <section id="cursos" className="pb-24 gradient-animated relative">
+    <section id="cursos" className="pb-10 md:pb-24 gradient-animated relative">
       <div className="absolute top-0 left-0 right-0 h-10 md:h-16 lg:h-20">
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -364,17 +364,17 @@ const Courses = () => {
         </svg>
       </div>
 
-      <div className="container mx-auto px-4 relative z-10 pt-16">
-        <div className="text-center mb-16 text-white animate-fade-in">
-          <h2 className="text-4xl lg:text-5xl font-bold mb-6">ESCOLHA SUA GRADUAÇÃO</h2>
-          <p className="text-lg text-white/90 max-w-4xl mx-auto leading-relaxed">
+      <div className="container mx-auto px-4 relative z-10 pt-10 md:pt-16">
+        <div className="text-center mb-6 md:mb-16 text-white animate-fade-in">
+          <h2 className="text-2xl md:text-4xl lg:text-5xl font-bold mb-2 md:mb-6">ESCOLHA SUA GRADUAÇÃO</h2>
+          <p className="text-sm md:text-lg text-white/90 max-w-4xl mx-auto leading-relaxed">
             Dê o próximo passo na sua jornada acadêmica com quem é referência em Ensino. Conheça nossas opções de Cursos
             EAD e Semipresenciais feitos para se encaixar na sua rotina.
           </p>
         </div>
 
         {/* Grid - 3 cols desktop, 2 cols tablet, 1 col mobile */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-7xl mx-auto">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6 max-w-7xl mx-auto">
           {visibleCourses.map((course, index) => (
             <CourseCard key={course.title} course={course} index={index} />
           ))}

@@ -28,11 +28,11 @@ const Hero = () => {
         </svg>
       </div>
 
-      <div className="container mx-auto px-4 py-4 md:py-12 relative z-10">
-        <div className="max-w-2xl mb-6 md:mb-12">
+      <div className="container mx-auto px-4 py-3 md:py-12 relative z-10">
+        <div className="max-w-2xl mb-4 md:mb-12">
           <div className="text-white animate-fade-in text-center md:text-left">
             <h1
-              className="text-2xl md:text-4xl lg:text-5xl font-extrabold mb-4 md:mb-6 leading-tight"
+              className="text-2xl md:text-4xl lg:text-5xl font-extrabold mb-2 md:mb-6 leading-tight"
               style={{
                 textShadow: "2px 2px 8px rgba(0, 0, 0, 0.2)",
               }}
@@ -40,12 +40,12 @@ const Hero = () => {
               O SUCESSO PROFISSIONAL<span className="text-primary"> EXIGE UMA GRADUAÇÃO</span> DE ALTO NÍVEL.
             </h1>
 
-            <p className="text-base md:text-xl text-white/90 leading-relaxed mb-5 md:mb-8">
+            <p className="text-base md:text-xl text-white/90 leading-relaxed mb-3 md:mb-8">
               Chega de salários baixos. Conquiste uma graduação ágil, focada no que as empresas precisam hoje, e acesse
               as melhores faixas salariais.
             </p>
 
-            <div className="mb-5 md:mb-8 flex justify-center md:justify-start">
+            <div className="mb-3 md:mb-8 flex justify-center md:justify-start">
               <a
                 href="https://www.fasuleducacional.edu.br/posgraduacao/cursos"
                 target="_blank"

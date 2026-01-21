@@ -30,17 +30,17 @@ const faqItems = [
 
 const FAQ = () => {
   return (
-    <section className="pt-4 md:pt-6 pb-12 md:pb-16 bg-white">
+    <section className="pt-2 md:pt-6 pb-6 md:pb-16 bg-white">
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto">
           {/* Header */}
-          <div className="mb-10 text-center">
-            <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#1E2842] mb-4">PERGUNTAS FREQUENTES</h2>
-            <p className="text-gray-600 text-lg">Tire suas dúvidas sobre a Graduação da FASUL</p>
+          <div className="mb-4 md:mb-10 text-center">
+            <h2 className="text-xl md:text-4xl lg:text-5xl font-bold text-[#1E2842] mb-2 md:mb-4">PERGUNTAS FREQUENTES</h2>
+            <p className="text-gray-600 text-sm md:text-lg">Tire suas dúvidas sobre a Graduação da FASUL</p>
           </div>
 
           {/* FAQ Accordion */}
-          <Accordion type="single" collapsible className="space-y-4">
+          <Accordion type="single" collapsible className="space-y-2 md:space-y-4">
             {faqItems.map((item, index) => (
               <AccordionItem
                 key={index}
