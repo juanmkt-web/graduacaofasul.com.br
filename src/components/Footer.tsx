@@ -438,7 +438,7 @@ const Footer = () => {
                 <li className="lirodape">
                   <a
                     className="atxtrodape"
-                    href="https://www.fasuleducacional.edu.br/regulamentos-atividades-complementares"
+                    href="https://www.fasuleducacional.edu.br/docs/Regulamento-das-Atividades-Complementares-v3.pdf"
                     title="Regulamentos de Atividades Complementares"
                   >
                     Regulamento de Atividades Complementares
